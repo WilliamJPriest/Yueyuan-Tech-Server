@@ -4,7 +4,8 @@
   "description": "Yueyuan Server\"",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "start": "nodemon index.js"
   },
   "author": "William J. P",
   "license": "ISC",
