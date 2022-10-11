@@ -31,7 +31,7 @@ router.post('/posts', authMiddleWare, async (req, res)=>{
      res.status(401).send("not an admin")
 });
 
-router.get('/posts', authMiddleWare,  async (req,res)=>{
+router.get('/posts',  async (req,res)=>{
     try{
         const jobPosting = await Jobs.find();
         return res.status(200).json({
