@@ -13,7 +13,7 @@ dotenv.config();
 
 mongoose
     .connect(
-        process.env.DB__Connect,)
+        process.env.DB__CONNECT)
     .then(() => console.log("Connected!"))
     .catch(err => console.log(err))
     
