@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Yueyuan Server\"",
   "main": "index.js",
+  "proxy":"https://yueyuan-tech.herokuapp.com",
   "scripts": {
     "dev": "nodemon index.js",
     "start": "node index.js"
