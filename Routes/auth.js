@@ -27,7 +27,7 @@ router.post('/register', async (req,res)=>{
         admin: false,
         bio: req.body.bio,
         icon: req.body.icon,
-        contact: req.body.contact,
+        contact: req.body.contact
 
     });
       try{  
