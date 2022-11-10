@@ -9,6 +9,8 @@ const authRoute = require('./Routes/auth');
 const postsRoute= require('./Routes/posts');
 // const profilesRoute = require('./Routes/userProfiles');
 
+
+
 dotenv.config();
 
 mongoose
@@ -30,3 +32,5 @@ app.use('/api',postsRoute);
 // app.use('/api',profilesRoute);
 
 app.listen(process.env.PORT || 3001,()=> console.log("hello"))
+
+module.exports = app;

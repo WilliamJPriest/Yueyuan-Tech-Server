@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Yueyuan Server\"",
   "main": "index.js",
-  "proxy":"https://yueyuan-tech.herokuapp.com",
+  "proxy": "https://yueyuan-tech.herokuapp.com",
   "scripts": {
     "dev": "nodemon index.js",
     "start": "node index.js"
@@ -17,6 +17,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
+    "firebase": "^9.13.0",
     "json": "^11.0.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.3.4",
