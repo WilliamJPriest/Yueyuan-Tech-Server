@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "Yueyuan Server\"",
   "main": "index.js",
-  "proxy": "https://yueyuan-tech.herokuapp.com",
+  "engines":{
+    "node":"14.x"
+  },
   "scripts": {
-    "dev": "nodemon index.js",
+    "dev": "node index.js",
     "start": "node index.js"
   },
   "author": "William J. P",
