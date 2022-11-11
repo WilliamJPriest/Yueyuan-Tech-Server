@@ -3,6 +3,7 @@
 # myfiles
 
 .env
+.fly.toml
 
 # dependencies
 node_modules/

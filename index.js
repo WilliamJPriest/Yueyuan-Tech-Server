@@ -23,7 +23,7 @@ mongoose
 
 
 app.use(express.json());
-app.use(cors({origin: '*' }));
+app.use(cors());
 app.use(bp.json())
 app.use(bp.urlencoded({ extended: true }))
 
